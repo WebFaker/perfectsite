@@ -7,6 +7,8 @@ html {
 
 body {
   font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  line-height: 1.5;
 }
 
 .menu_section {
@@ -80,3 +82,85 @@ body {
 }
 
 /* ABOUT SECTION */
+
+.bluetext {
+  color: #50E3C2;
+}
+
+.about {
+  width: 100vw;
+}
+
+.about_container {
+  margin: 0 60px;
+}
+
+.bluebar {
+position: absolute;
+margin-top: 20px;
+left:50%;
+transform: translate(-50%, 0);
+justify-content: center;
+height: 1px;
+width: 80px;
+background-color: #50E3C2;
+}
+
+.about_maintitle_container {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 2.4rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.about_subtitle_container {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  margin-top: 100px;
+}
+
+.about_subtitle_desc {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.about_sectiontitle_container {
+  font-family: "Playfair Display", serif;
+  font-size: 2.4rem;
+  margin-top: 100px;
+}
+
+.about_sectiontext {
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+  font-size: 1.4rem;
+  margin-top: 50px;
+  z-index: 1;
+}
+
+.about_sectiondecoration {
+  z-index: -1;
+  width: 50px;
+  position: absolute;
+  padding-top: 25px;
+  left: 0;
+  margin-left: 45px;
+}
+
+.about_description_container {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  margin-top: 100px;
+  font-weight: lighter;
+}
+
+.about_description_list_item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
