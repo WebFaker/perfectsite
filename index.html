@@ -7,6 +7,7 @@
   <title>Une Année De Voyages</title>
   <link rel="stylesheet" href="./src/css/reset.css">
   <link rel="stylesheet" href="./src/css/index.css">
+  <link rel="stylesheet" href="./src/css/flickity.css">
 </head>
 
 <body>
@@ -55,9 +56,10 @@
 
   <section class="information">
     <div class="information_title_container">
-      <p class="information_title">
+      <p class="section_title">
         Dernier magazine :
       </p>
+      <div class="bluebar"></div>
       <p class="information_title_description">
         . Un mook collector . Des fiches pratiques . Une application . Un site .
       </p>
@@ -92,8 +94,61 @@
     </div>
   </section>
 
+  <section class="images">
+    <div class="images_container">
+      <div class="information_title_container">
+        <h2 class="section_title">
+        La Boîte à Images.
+      </h2>
+        <div class="bluebar"></div>
+      </div>
+      <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img1.jpeg" alt=""></div>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img2.jpeg" alt=""></div>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img3.jpeg" alt=""></div>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img4.jpeg" alt=""></div>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img5.jpeg" alt=""></div>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img6.jpeg" alt=""></div>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img7.jpeg" alt=""></div>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img8.jpeg" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <h2 class="footer-title">Partenaires</h2>
+    <div class="bluebar"></div>
+    <div class="footer-imgContainer">
+      <img src="./src/img/af.png" alt="Aéroport" class="footer-img">
+      <img src="./src/img/fuji.png" alt="Fujifilm" class="footer-img">
+      <img src="./src/img/nikon.png" alt="Nikon" class="footer-img">
+    </div>
+    <div class="footer-pages">
+      <a href="" class="footer-pageLink">
+        <p class="footer-page">À propos</p>
+      </a>
+      <a href="" class="footer-pageLink">
+        <p class="footer-page">Contactez-nous</p>
+      </a>
+      <a href="" class="footer-pageLink">
+        <p class="footer-page">PAGEEEE</p>
+      </a>
+      <a href="" class="footer-pageLink">
+        <p class="footer-page">PAGEEEE</p>
+      </a>
+      <a href="" class="footer-pageLink">
+        <p class="footer-page">Tous droits réservés Une Année De Voyages ©2018-2022
+
+        </p>
+      </a>
+
+    </div>
+
+  </footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="./src/js/main.js"></script>
+  <script type="text/javascript" src="./src/js/flickity.js"></script>
 </body>
 
 </html>

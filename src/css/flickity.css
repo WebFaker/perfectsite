@@ -49,16 +49,17 @@ https://flickity.metafizzy.co
   background: hsla(0, 0%, 100%, 0.75);
   border: none;
   color: #333;
+  transition: .3s all
 }
 
 .flickity-button:hover {
-  background: white;
+  background: #DFDFDF;
   cursor: pointer;
 }
 
 .flickity-button:focus {
   outline: none;
-  box-shadow: 0 0 0 5px #19F;
+  box-shadow: 0 0 0 5px #50E3C2;
 }
 
 .flickity-button:active {
@@ -73,7 +74,7 @@ https://flickity.metafizzy.co
 }
 
 .flickity-button-icon {
-  fill: #333;
+  fill: #50E3C2;
 }
 
 /* ---- previous/next buttons ---- */
