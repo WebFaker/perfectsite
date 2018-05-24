@@ -91,7 +91,7 @@ body {
   flex-direction: column;
   height: 100%;
   text-align: center;
-  margin: 0 60px;
+  margin: 0 20%;
 }
 
 .header_title {
@@ -178,6 +178,6 @@ body {
 }
 
 .twitter_api_container {
-    margin: 0 60px;
+  margin: 0 20%;
     margin-top: 50px;
 }

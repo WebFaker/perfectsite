@@ -92,7 +92,7 @@ body {
 }
 
 .about_container {
-  margin: 0 60px;
+  margin: 0 20%;
 }
 
 .bluebar {
@@ -150,7 +150,7 @@ background-color: #50E3C2;
   position: absolute;
   padding-top: 25px;
   left: 0;
-  margin-left: 45px;
+  margin-left: 18%;
 }
 
 .about_description_container {
