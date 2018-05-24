@@ -14,6 +14,20 @@ textarea {
   outline: none;
 }
 
+.menu_container:hover {
+  transform: scale(1.2);
+}
+
+.menu_container:active {
+  transition: .1s all;
+  transform: scale(1);
+}
+
+.menu_img_button {
+  width: 70px;
+}
+
+
 .contact {
   margin-top: 150px;
   margin-bottom: 100px;

@@ -95,111 +95,67 @@ body {
   bottom: -30%;
 }
 
-/* INDEX SECTION */
+/* DIV TOP */
 
-.header {
-  height: 100vh;
-  width: 100vw;
-  background-image: url("../img/header-img.jpeg");
-  background-position: left;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.header_title_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100%;
-  text-align: center;
-  margin: 0 20%;
-}
-
-.header_title {
+.topTitle {
+  font-family: "Playfair Display", serif;
   font-weight: bold;
-  color: #FFF;
-  font-family: "Playfair Display", serif;
   font-size: 2.4rem;
-  margin-bottom: 20px;
-}
-
-.header_description {
-  color: #FFF;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-}
-
-.information {
-  font-size: 1.6rem;
-  margin: 10% 60px;
-}
-
-
-.information_title {
-  width: 100%;
-  font-family: "Playfair Display", serif;
-  font-size: 1.6rem;
-  text-align: center;
-}
-
-#menu-button-open {
-  bottom: -30%;
-}
-
-.information_title_description {
-  font-family: "Raleway", sans-serif;
-  color: #50E3C2;
-  margin-top: 5%;
-  text-align: left;
-  text-align: center;
-}
-
-.information_paragraph{
-  margin-top: 5%;
-  line-height: 1.3;
-}
-
-.information_paragraph_img_container{
-  width: 100%;
-  height: 326px;
   display: flex;
   justify-content: center;
+  margin-top: 150px;
 }
 
-.information_paragraph_img{
-  width: 231px;
-  margin: 0 auto;
-}
-
-.button {
+.bluebar {
   position: absolute;
+  margin-top: 20px;
   left: 50%;
   transform: translate(-50%, 0);
-  border: 1px solid #50E3C2;
-  padding: 10px 20px;
-  color: #000;
-  transition: .3s all;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.button:hover {
-  color: #FFF;
+  justify-content: center;
+  height: 1px;
+  width: 80px;
   background-color: #50E3C2;
 }
 
-.button:active {
-  background-color: #39A28B;
-}
-
-.twitter {
-  display: flex;
+.top {
   width: 100vw;
-  justify-content: center;
 }
 
-.twitter_api_container {
+.top-content {
+  position: relative;
+}
+
+.topContainer {
   margin: 0 20%;
-    margin-top: 50px;
+}
+
+.top-contentBg {
+  width: 100%;
+  margin-top: 100px;
+  opacity: 0.8;
+}
+
+.top-contentNumber {
+  position: absolute;
+  top: 3%;
+  left: 0;
+  font-weight: bold;
+  font-size: 31vw;
+  opacity: 0.3;
+  margin-top: 11%;
+  margin-left: -10%;
+  text-decoration: none;
+  color: black;
+}
+
+.top-contentText {
+  position: absolute;
+  top: 50%;
+  font-size: 2.5vw;
+  color: white;
+  font-weight: normal;
+  background-color: #50E3C2;
+  margin-left: 30%;
+  padding: 5px 10px;
+  width: 85%;
 }

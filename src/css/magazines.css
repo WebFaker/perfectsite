@@ -56,6 +56,7 @@ body {
 }
 
 .logo_container {
+  z-index: 1;
   position: fixed;
   left: 0;
   top: 0;
@@ -63,6 +64,7 @@ body {
 }
 
 .menu_container {
+  z-index: 1;
   cursor: pointer;
   transition: all .7s;
   position: fixed;
@@ -80,6 +82,10 @@ body {
 
 #menu-button-open {
   bottom: -30%;
+}
+
+.menu_img_button {
+  width: 70px;
 }
 
 /* SECTION MAGAZINES */
@@ -162,4 +168,8 @@ body {
   max-height: 70%;
   max-width: 70%;
   height: auto;
+}
+
+.main-carousel {
+  z-index: 0;
 }
