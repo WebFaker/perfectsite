@@ -176,7 +176,7 @@ background-color: #50E3C2;
 
 @keyframes floating {
     from { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
+    50%  { transform: translate(0, 10px); }
     to   { transform: translate(0, -0px); }
 }
 

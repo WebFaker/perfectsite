@@ -29,3 +29,29 @@ $(document).ready(function() {
   });
   $("#menu-button-open").css("bottom", "-30%");
 });
+
+$(document).ready(function() {
+
+  $('body').css('display', 'none');
+
+  $('body').fadeIn(300);
+
+
+
+  $('a').click(function() {
+
+    event.preventDefault();
+
+    newLocation = this.href;
+
+    $('body').fadeOut(300, newpage);
+
+  });
+
+  function newpage() {
+
+    window.location = newLocation;
+
+  }
+
+});
